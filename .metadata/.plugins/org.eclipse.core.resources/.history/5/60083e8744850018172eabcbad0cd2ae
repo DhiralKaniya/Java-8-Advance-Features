@@ -1,8 +1,0 @@
-package com.session.defaultMethod;
-
-public interface Chocolate {
-	public void makeChocolate();
-	public void wrappeChocolate();
-	public void sellChocolate();
-	
-}

@@ -1,6 +1,0 @@
-package com.session.methodInterface;
-
-public interface PersonInterface {
-
-	public Person getMessage();
-}

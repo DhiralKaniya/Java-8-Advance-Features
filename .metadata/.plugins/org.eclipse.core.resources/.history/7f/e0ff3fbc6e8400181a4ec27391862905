@@ -1,8 +1,0 @@
-package com.test.lambda;
-
-import java.util.function.Predicate;
-
-@FunctionalInterface
-public interface Sum {
-	public <T> int add(Predicate<T> p);
-}
