@@ -1,0 +1,7 @@
+package com.test.lambda;
+
+public class CollectionExample {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,5 @@
+package com.session.stream.custom;
+
+public class MyCustomStream implements Stream<T> {
+
+}

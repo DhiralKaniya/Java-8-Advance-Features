@@ -1,0 +1,6 @@
+package com.test.functionalInterface;
+
+@myInterface
+public interface FunctionalInterface {
+
+}

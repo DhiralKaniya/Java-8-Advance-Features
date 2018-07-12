@@ -1,0 +1,7 @@
+package com.test.methodInterface;
+
+public class StringTestProgram {
+	public static void main(String[] args) {
+		
+	}
+}

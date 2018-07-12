@@ -1,0 +1,45 @@
+package com.session.methodInterface;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.BiFunction;
+import java.util.function.BiPredicate;
+import java.util.function.Consumer;
+
+import com.session.utility.Person;
+
+public class TestProgram {
+	
+	
+	public static void main(String[] args) {
+		
+		List<Person> persons = Arrays.asList(
+				new Person(1,"Test1",10),
+				new Person(2,"Test2",20),
+				new Person(3,"Test3",30)
+				);
+		
+		//reference to a static method 
+		persons.forEach(System.out::print);
+		
+		//Reference to an instance method of particular object
+		//persons.forEach(TestProgram::printPerson);
+			
+	}
+	public static List<Person> after5Years(List<Person> person, BiPredicate<Person, Person> p){
+		
+		for (Person person2 : person) {
+			
+		}
+		
+		return person;
+	}
+	
+	public static Person isAbove50(Person p1) {
+		return p1.getAge() + 5 > 50 ? true : false;
+	}
+	
+	public static void printPerson(Person p ) {
+		System.out.println(p);
+	}
+}

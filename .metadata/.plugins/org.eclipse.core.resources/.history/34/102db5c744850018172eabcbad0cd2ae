@@ -1,0 +1,16 @@
+package com.session.defaultMethod;
+
+public class ElectricGadgets implements Gadgets{
+
+	@Override
+	public void start() {
+		System.out.println("Electric Gadgets..!!");
+	}
+
+	@Override
+	public void stop() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

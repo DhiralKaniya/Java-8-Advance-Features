@@ -1,0 +1,10 @@
+package com.test.stream;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class Utility {
+	public static ArrayList<String> getStringList(){
+		return Arrays.asList("test1","test2");
+	}
+}

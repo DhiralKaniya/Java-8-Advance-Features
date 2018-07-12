@@ -1,0 +1,7 @@
+package com.test.methodInterface;
+
+public class StringTestProgram {
+	private void psvm() {
+		
+	}
+}

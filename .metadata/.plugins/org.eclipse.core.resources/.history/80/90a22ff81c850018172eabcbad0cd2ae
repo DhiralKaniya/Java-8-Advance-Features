@@ -1,0 +1,6 @@
+package com.test.lambda;
+
+public interface LambdaInterface {
+	public void newPrintMethod();
+	
+}

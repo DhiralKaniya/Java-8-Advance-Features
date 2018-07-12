@@ -1,0 +1,15 @@
+package com.session.defaultMethod;
+
+public class AutomatedGadgets implements Gadgets{
+
+	@Override
+	public void start() {
+		System.out.println("Electric Gadgets.. start !!");
+	}
+
+	@Override
+	public void stop() {
+		System.out.println("Electric Gadgets.. stop !!");
+	}
+
+}

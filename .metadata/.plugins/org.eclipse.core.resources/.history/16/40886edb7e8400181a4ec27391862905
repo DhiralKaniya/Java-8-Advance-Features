@@ -1,0 +1,9 @@
+package com.test.methodInterface;
+
+import java.util.Arrays;
+
+public class TestProgram {
+	public static void main(String[] args) {
+		final List<Person> persons = Arrays.asList(new Person(1,"Test1"), new Person(2,"test2"));
+	}
+}

@@ -1,0 +1,11 @@
+package com.test.functionalInterface;
+
+@FunctionalInterface
+public interface myInterface {
+	public int getSum();
+	
+	public static void printMyMethod()
+	{
+		System.out.println("Print method ");
+	}
+}

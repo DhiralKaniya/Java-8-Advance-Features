@@ -1,0 +1,6 @@
+package com.session.defaultMethod;
+
+public interface Gadgets {
+	public void start();
+	public void stop();
+}

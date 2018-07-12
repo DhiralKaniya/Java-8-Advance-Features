@@ -1,0 +1,20 @@
+package com.test.lambda;
+
+public class Lambda {
+	
+	
+	static LambdaInterface li = ()->{
+		System.out.println("Test printing");
+	};
+	static Sum addition = (int a, int b)->{
+		return a + b;
+	};
+	public static void main(String[] args) {
+		li.newPrintMethod();
+		System.out.println(addition.add(10, 20));
+		System.out.println(addition.add(40, 50));
+		
+		
+		
+	}
+}

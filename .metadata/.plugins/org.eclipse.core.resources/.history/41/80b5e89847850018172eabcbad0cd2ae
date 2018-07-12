@@ -1,0 +1,13 @@
+package com.session.trywithresource;
+
+import java.io.FileInputStream;
+
+public class TestTryCatch {
+	public static void main(String[] args) {
+		try (BufferedReader br = new BufferedReader(new FileReader("mail_id.txt"))){
+			
+		}catch() {
+			
+		}
+	}
+}

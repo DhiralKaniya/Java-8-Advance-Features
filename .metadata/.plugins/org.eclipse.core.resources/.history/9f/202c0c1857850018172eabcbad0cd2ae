@@ -1,0 +1,6 @@
+package com.session.methodInterface;
+
+public interface PersonInterface {
+
+	public String getMessage();
+}

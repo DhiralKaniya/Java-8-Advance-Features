@@ -1,0 +1,29 @@
+package com.test.lambda;
+
+public class Lambda {
+
+	public static void main(String[] args) {
+		
+		LambdaInterface li = ()->{
+			System.out.println("Test printing");
+		};
+		
+		li.newPrintMethod();
+		
+		Sum addition = (a,b)-> a+b;
+		int a = addition.sum(10, 20);
+
+		LambdaInterface l3 = new LambdaInterface() {
+
+			@Override
+			public void newPrintMethod() {
+				System.out.println("Print l3");
+				
+			}
+			
+		};
+		l3.newPrintMethod();
+		
+		
+	}
+}

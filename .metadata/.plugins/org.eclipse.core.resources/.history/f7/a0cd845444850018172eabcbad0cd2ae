@@ -1,0 +1,7 @@
+package com.session.defaultMethod;
+
+public interface Chocolate {
+	public void buyChocolate();
+	public void eatChocolate();
+
+}
